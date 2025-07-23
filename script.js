@@ -5,7 +5,7 @@ function calcularTabuada(){
     let texto = document.getElementById('texto');
     let recebeResultado = document.getElementById('recebeResultado');
     
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i <= 10; i++){
         const valorFinal = document.createElement('p');
         valorFinal.textContent = `${valor} x ${i} = ${valor*i}`
 
